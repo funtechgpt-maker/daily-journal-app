@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api";
+const API = "https://daily-journal-app-ps2h.onrender.com/api";
 
 async function saveJournal() {
   await fetch(`${API}/journal`, {
@@ -45,3 +45,4 @@ async function loadDashboard() {
     pct < 100 ? "🚀 Almost there" :
     "🏆 Goal achieved!";
 }
+
